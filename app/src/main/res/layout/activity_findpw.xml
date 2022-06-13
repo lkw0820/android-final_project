@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="비밀번호찾기"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="11dp"
+        android:text="이메일"
+        app:layout_constraintBottom_toBottomOf="@+id/edtEmail2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="9dp"
+        android:text="닉네임"
+        app:layout_constraintBottom_toBottomOf="@+id/edtNickname2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="73dp"
+        android:text="전화번호"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <EditText
+        android:id="@+id/edtEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="223dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNickname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edtEmail2"
+        app:layout_constraintTop_toBottomOf="@+id/edtEmail2" />
+
+    <EditText
+        android:id="@+id/edtPhone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="@+id/edtNickname2" />
+
+    <Button
+        android:id="@+id/btnFindPW2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:text="비밀번호찾기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPhone3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

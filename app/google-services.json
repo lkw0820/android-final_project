@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "93911230030",
+    "project_id": "rich-involution-351401",
+    "storage_bucket": "rich-involution-351401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93911230030:android:1d2b8fd5a85e799062c51f",
+        "android_client_info": {
+          "package_name": "com.inhatc.final_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93911230030-116r95oncg6b0ut21cnssero89rs1fsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYY4g6ghAn-evRuYkiT_AH39WZ16NwtNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93911230030-116r95oncg6b0ut21cnssero89rs1fsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93911230030:android:6148c17dd8ae3ee362c51f",
+        "android_client_info": {
+          "package_name": "com.inhatc.walkin_map"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93911230030-116r95oncg6b0ut21cnssero89rs1fsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYY4g6ghAn-evRuYkiT_AH39WZ16NwtNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93911230030-116r95oncg6b0ut21cnssero89rs1fsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
